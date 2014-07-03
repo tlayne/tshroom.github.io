@@ -4,9 +4,9 @@ title: Blog Name
 ---
 
 {% for post in site.posts offset: 0 limit: 10 %}
-    <span style="font-size:1.3em;">
+    <h2 style="font-size:1.3em;">
         <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
-    </span>
+    </h2>
     {{ post.date | date_to_string }}
     <hr />
 {% endfor %}

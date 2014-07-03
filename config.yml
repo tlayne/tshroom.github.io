@@ -6,4 +6,5 @@ title: 'Yes We Jekyll'
 exclude: ['LICENSE', 'README.md', 'CNAME']
 description: 'A simple Jekyll implementation for personal blogs'
 permalink: pretty
-url: http://timothysmith.me
+url: tshroom.github.io
+markdown: kramdown
